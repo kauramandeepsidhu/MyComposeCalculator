@@ -3,4 +3,13 @@
     <style name="Theme.MyComposeCalculator" parent="android:Theme.Material.Light.NoActionBar">
 
     </style>
+
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_rank_01</item>
+        <item name="windowSplashScreenAnimationDuration">800</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyComposeCalculator</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/purple_200</item>
+
+    </style>
 </resources>

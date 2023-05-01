@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Splash Screen Theme (Android 12+) -->
+    <style name="Theme.App.Starting" parent="Theme.SplashScreen.IconBackground">
+        <item name="windowSplashScreenBackground">@color/white</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/anim_progress</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/purple_200</item>
+        <item name="postSplashScreenTheme">@style/Theme.MyComposeCalculator</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_rank_01</item>
+    </style>
+
+</resources>
